@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        android:background="#B7DFF1">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:layout_width="252dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+            <TextView
+                    android:text="NIM "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+            />
+
+            <TextView
+                    android:text="Nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+            />
+
+            <TextView
+                    android:text="Jurusan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+            />
+
+            <TextView
+                    android:text="Email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+            />
+
+        </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/hasilTxtNIM"
+                android:text="Hasil NIM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+        />
+
+        <TextView
+                android:id="@+id/hasilTxtNama"
+                android:text="Hasil Nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+        />
+
+        <TextView
+                android:id="@+id/hasilTxtJur"
+                android:text="Hasil Jurusan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+        />
+
+        <TextView
+                android:id="@+id/hasilTxtEmail"
+                android:text="Hasil Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+        />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/btnEdit"
+                android:text="Edit"
+                android:layout_width="78dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="35dp"
+                android:background="#1584DD"
+                android:textColor="#FFFFFFFF"/>
+
+        <Button
+                android:id="@+id/btnHapus"
+                android:text="Hapus"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="78dp"
+                android:layout_height="35dp"
+                android:background="#F33535"
+                android:textColor="#FFFFFFFF"/>
+
+    </LinearLayout>
+
+</LinearLayout>

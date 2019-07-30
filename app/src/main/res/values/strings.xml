@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Input Data Mahasiswa</string>
+    <string name="header">UAS App</string>
+    <string name="header2">Fitur Aplikasi Workshop Kotlin</string>
+    <string name="title_activity_list_dataMhs">List Data Mahasiswa</string>
+    <string name="teks_klik">Klik Tombol Untuk Isi Data</string>
+</resources>
